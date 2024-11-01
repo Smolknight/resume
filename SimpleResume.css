@@ -1,0 +1,50 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body{
+  background-color: #f4f4f4;
+}
+.container{
+  width: 65%;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 2px 2px gray;
+}
+.intro {
+  width: 55%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  h4,p {
+    color: gray;
+  }
+}
+
+.summary {
+  width: 90%;
+  margin: 0 auto;
+  p {
+    color: gray;
+  }
+}
+
+.Experience, .Education{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 25px;
+  h4{
+      color: gray;
+  }
+}
+.Skills{
+   width: 90%;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding-bottom: 50px;
+  li{
+       list-style: none;
+       padding-bottom: 5px;
+  }
+}
